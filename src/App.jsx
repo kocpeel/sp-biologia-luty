@@ -8,8 +8,11 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
+    // fetch(
+    //   "https://raw.githubusercontent.com/kocpeel/sciagaFiles/main/biologia/luty.json"
+    // )
     fetch(
-      "https://raw.githubusercontent.com/kocpeel/sciagaFiles/main/biologia/luty.json"
+      "https://raw.githubusercontent.com/kocpeel/sciagaFiles/main/biologia/maj.json"
     )
       .then((response) => response.json())
       .then((data) => setData(data));

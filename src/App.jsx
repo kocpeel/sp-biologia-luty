@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     // fetch(
-    //   "https://raw.githubusercontent.com/kocpeel/sciagaFiles/main/biologia/luty.json"
+    //   "https://raw.githubusercontent.com/kocpeel/sciagaFiles/main/biologia/kwiecien.json"
     // )
     fetch(
       "https://raw.githubusercontent.com/kocpeel/sciagaFiles/main/biologia/maj.json"
